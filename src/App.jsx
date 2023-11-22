@@ -1,4 +1,6 @@
 import './App.css'
+import OurClient from './components/OurClient'
+import OurTeam from './components/OurTeam'
 import OurWork from './components/OurWork'
 import ServiceType from './components/ServiceType'
 import Services from './components/Services'
@@ -12,6 +14,8 @@ function App() {
       <Services></Services>
       <ServiceType></ServiceType>
       <OurWork></OurWork>
+      <OurClient></OurClient>
+      <OurTeam></OurTeam>
     </div>
   )
 }

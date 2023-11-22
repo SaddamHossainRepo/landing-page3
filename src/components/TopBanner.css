@@ -19,6 +19,10 @@
     font-family: rota-bold;
     src: url('../fonts/Rota/Rota-Bold.otf');
 }
+@font-face {
+    font-family: quasimoda;
+    src: url('../fonts/Quasimoda/quasimoda.otf');
+}
 
 .innovative-agency{
     font-family: Jaapokkisubtract;
@@ -29,4 +33,8 @@
 }
 .rota-bold{
     font-family: rota-bold;
+}
+
+.quasimoda{
+    font-family: quasimoda;
 }

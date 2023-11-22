@@ -23,10 +23,10 @@ const TopBanner = () => {
                 </div>
                 <div className=" navbar-center">
                     <div className='flex gap-10'>
-                        <Link to='/'>about us</Link>
-                        <Link to='/services'>services</Link>
-                        <Link to='/ourwork'>our work</Link>
-                        <Link to='/'>education</Link>
+                        <a to='/'>about us</a>
+                        <a href='#services'>services</a>
+                        <a href='#our-work'>our work</a>
+                        <a to='/'>education</a>
                     </div>
                 </div>
                 <div className="navbar-end">
@@ -40,7 +40,7 @@ const TopBanner = () => {
             <div className='mt-40 pl-14 '>
                 <div className='text-start mb-32'>
                     <h1 className=' text-5xl mb-2 innovative-agency'>innovative Cyber Agency</h1>
-                    <h1 className='font-serif font-bold mb-14 text-5xl bg-gradient-to-r from-teal-500 via-cyan-400 to-green-500 text-transparent bg-clip-text'>Artificial Intelligence</h1>
+                    <h1 className='font-serif font-bold mb-14 text-5xl bg-gradient-to-r from-green-400 via-cyan-500 to-green-600 text-transparent bg-clip-text'>Artificial Intelligence</h1>
                     <div className='rota-font'>
                         <p className='text-sm '> We're the best digital marketing agency from West Bengal, curating experiences that users </p>
                         <p className='text-sm'>fall in love with.</p>

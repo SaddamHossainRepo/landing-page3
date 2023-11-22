@@ -4,17 +4,17 @@
     background-size: cover;
 }
 .second-work{
-    background-image: url('../../public/static-files/ourwork/bg1.png');
+    background-image: url('../../public/static-files/ourwork/bg2.png');
     height: 100vh;
     background-size: cover;
 }
 .third-work{
-    background-image: url('../../public/static-files/ourwork/bg1.png');
+    background-image: url('../../public/static-files/ourwork/bg3.png');
     height: 100vh;
     background-size: cover;
 }
 .fourth-work{
-    background-image: url('../../public/static-files/ourwork/bg1.png');
+    background-image: url('../../public/static-files/ourwork/bg4.png');
     height: 100vh;
     background-size: cover;
 }

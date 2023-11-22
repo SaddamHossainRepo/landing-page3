@@ -6,13 +6,13 @@ import './TopBanner.css'
 
 const Services = () => {
     return (
-        <div className=' bg-black border-gray-600 '>
+        <div id='services' className=' bg-black border-gray-600 '>
             <div className="">
                 <div className="flex justify-center items-center ">
 
                     <div className='w-1/2 mt-10'>
                         <h1 className="rota-bold text-start text-3xl font-semibold 
-                        bg-gradient-to-r from-teal-500 via-cyan-400 to-green-500 text-transparent bg-clip-text">SECURITY EXPERTS</h1>
+                        bg-gradient-to-r from-green-400 via-cyan-500 to-green-600 text-transparent bg-clip-text">SECURITY EXPERTS</h1>
                         <p className='rota-font text-start w-80 text-white text-sm mt-5'>
                             Knowing the state of your current cybersecurity posture as well as executing on continued cybersecurity initiatives is critical to staying ahead of the constantly evolving risks that are out there. With Audits, Penetration Testing & Security System Architecture and Implementation, Ethical Den can help you better understand where you are now and where you need to be tomorrow.
                         </p>
@@ -31,7 +31,7 @@ const Services = () => {
 
                     <div className='w-1/2 mt-32 pl-28'>
                         <h1 className="rota-bold text-start text-3xl font-semibold 
-                        bg-gradient-to-r from-teal-500 via-cyan-400 to-green-500 text-transparent bg-clip-text">DEVELOPMENT EXPERTS</h1>
+                        bg-gradient-to-r from-green-400 via-cyan-500 to-green-600 text-transparent bg-clip-text">DEVELOPMENT EXPERTS</h1>
                         <p className='rota-font text-start w-80 text-white text-sm mt-5'>
                             Knowing the state of your current cybersecurity posture as well as executing on continued cybersecurity initiatives is critical to staying ahead of the constantly evolving risks that are out there. With Audits, Penetration Testing & Security System Architecture and Implementation, Ethical Den can help you better understand where you are now and where you need to be tomorrow.
                         </p>
@@ -43,7 +43,7 @@ const Services = () => {
 
                     <div className='w-1/2 '>
                         <h1 className="rota-bold text-start text-3xl font-semibold 
-                        bg-gradient-to-r from-teal-500 via-cyan-400 to-green-800 text-transparent bg-clip-text">MARKETING EXPERTS</h1>
+                        bg-gradient-to-r from-green-500 via-cyan-400 to-green-800 text-transparent bg-clip-text">MARKETING EXPERTS</h1>
                         <p className='rota-font text-start w-80 text-white text-sm mt-5'>
                             Knowing the state of your current cybersecurity posture as well as executing on continued cybersecurity initiatives is critical to staying ahead of the constantly evolving risks that are out there. With Audits, Penetration Testing & Security System Architecture and Implementation, Ethical Den can help you better understand where you are now and where you need to be tomorrow.
                         </p>
