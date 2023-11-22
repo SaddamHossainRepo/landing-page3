@@ -38,7 +38,7 @@ const HireUs = () => {
 
                 </div>
 
-                <div className='mt-5 text-white'>
+                <div className='mt-8 text-white'>
                     <input className='bg-black w-1/2 mb-4' type="text" placeholder='NAME' />
                     <input className='bg-black w-1/2 mt-3' type="text" placeholder='EMAIL' />
                     <input className='bg-black w-full' type="text" placeholder='PROJECT DETAILS (OPTIONAL)' />

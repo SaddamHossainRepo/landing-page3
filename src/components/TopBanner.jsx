@@ -26,7 +26,7 @@ const TopBanner = () => {
                         <a href='#hire-us'>about us</a>
                         <a href='#services'>services</a>
                         <a href='#our-work'>our work</a>
-                        <a to='/'>education</a>
+                        <a href='#education'>education</a>
                     </div>
                 </div>
                 <div className="navbar-end">

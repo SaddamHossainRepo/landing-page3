@@ -6,7 +6,7 @@ import './TopBanner.css'
 
 const Services = () => {
     return (
-        <div id='services' className=' bg-black border-gray-600 '>
+        <div id='education' className=' bg-black border-gray-600 '>
             <div className="">
                 <div className="flex justify-center items-center ">
 
