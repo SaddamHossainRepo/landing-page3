@@ -13,10 +13,10 @@ const TopBanner = () => {
 
 
             <div className="navbar p-14">
-                <div className="navbar-start">
+                <div className="navbar-start pl-24">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost btn-circle">
-                            <img src={icon} alt="" />
+                            <img  className='' src={icon} alt="" />
                         </label>
 
                     </div>
@@ -37,7 +37,7 @@ const TopBanner = () => {
                 </div>
             </div>
 
-            <div className='mt-40 pl-14 '>
+            <div className='mt-40 pl-36  '>
                 <div className='text-start mb-32'>
                     <h1 className=' text-5xl mb-2 innovative-agency'>innovative Cyber Agency</h1>
                     <h1 className='font-serif font-bold mb-14 text-5xl bg-gradient-to-r from-green-400 via-cyan-500 to-green-600 text-transparent bg-clip-text'>Artificial Intelligence</h1>
@@ -47,7 +47,7 @@ const TopBanner = () => {
                     </div>
                 </div>
 
-                <div className='flex  gap-10 mt-[-50px]'>
+                <div className='pb-24 flex  gap-10 mt-[-50px]'>
                     <Link><img src={insta} alt="" /></Link>
                     <Link><img src={fb} alt="" /></Link>
                     <Link><img src={be} alt="" /></Link>
