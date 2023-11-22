@@ -3,3 +3,30 @@
     height: 100vh;
     background-size: cover;
 }
+
+@font-face {
+    font-family: Jaapokkisubtract;
+    src: url('../fonts/Jaapokkisubtract.otf');
+
+    
+}
+
+@font-face {
+    font-family: rota;
+    src: url('../fonts/Rota/Rota-Light.otf');
+}
+@font-face {
+    font-family: rota-bold;
+    src: url('../fonts/Rota/Rota-Bold.otf');
+}
+
+.innovative-agency{
+    font-family: Jaapokkisubtract;
+}
+
+.rota-font{
+    font-family: rota;
+}
+.rota-bold{
+    font-family: rota-bold;
+}

@@ -1,4 +1,5 @@
 import './App.css'
+import OurWork from './components/OurWork'
 import ServiceType from './components/ServiceType'
 import Services from './components/Services'
 import TopBanner from './components/TopBanner'
@@ -10,6 +11,7 @@ function App() {
       <TopBanner></TopBanner>
       <Services></Services>
       <ServiceType></ServiceType>
+      <OurWork></OurWork>
     </div>
   )
 }

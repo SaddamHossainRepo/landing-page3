@@ -9,8 +9,8 @@ import be from '../../public/static-files/top-hero/icons/be.svg'
 
 const TopBanner = () => {
     return (
-        <div className='top-banner text-white '>
-            
+        <div className='rota-font top-banner text-white '>
+
 
             <div className="navbar p-14">
                 <div className="navbar-start">
@@ -21,11 +21,11 @@ const TopBanner = () => {
 
                     </div>
                 </div>
-                <div className="navbar-center">
+                <div className=" navbar-center">
                     <div className='flex gap-10'>
                         <Link to='/'>about us</Link>
                         <Link to='/services'>services</Link>
-                        <Link to='/'>our work</Link>
+                        <Link to='/ourwork'>our work</Link>
                         <Link to='/'>education</Link>
                     </div>
                 </div>
@@ -39,10 +39,12 @@ const TopBanner = () => {
 
             <div className='mt-40 pl-14 '>
                 <div className='text-start mb-32'>
-                    <h1 className='font-mono text-5xl mb-2'>innovative Cyber Agency</h1>
+                    <h1 className=' text-5xl mb-2 innovative-agency'>innovative Cyber Agency</h1>
                     <h1 className='font-serif font-bold mb-14 text-5xl bg-gradient-to-r from-teal-500 via-cyan-400 to-green-500 text-transparent bg-clip-text'>Artificial Intelligence</h1>
-                    <p className='text-sm '> We're the best digital marketing agency from West Bengal, curating experiences that users </p>
-                    <p className='text-sm'>fall in love with.</p>
+                    <div className='rota-font'>
+                        <p className='text-sm '> We're the best digital marketing agency from West Bengal, curating experiences that users </p>
+                        <p className='text-sm'>fall in love with.</p>
+                    </div>
                 </div>
 
                 <div className='flex  gap-10 mt-[-50px]'>
