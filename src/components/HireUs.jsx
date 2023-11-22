@@ -7,7 +7,7 @@ import web from '../../public/static-files/top-hero/icons/web.svg'
 
 const HireUs = () => {
     return (
-        <div className="flex bg-black text-white pt-52 pl-32 ">
+        <div id='hire-us' className="flex bg-black text-white pt-52 pl-32 ">
             <div className="w-1/2 ">
                 <h1>HIRE US</h1>
                 <h2 className="mt-5 mb-5 rota-bold text-start text-3xl font-semibold 

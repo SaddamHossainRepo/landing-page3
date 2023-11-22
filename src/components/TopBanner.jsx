@@ -23,7 +23,7 @@ const TopBanner = () => {
                 </div>
                 <div className=" navbar-center">
                     <div className='flex gap-10'>
-                        <a to='/'>about us</a>
+                        <a href='#hire-us'>about us</a>
                         <a href='#services'>services</a>
                         <a href='#our-work'>our work</a>
                         <a to='/'>education</a>
