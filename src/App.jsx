@@ -5,7 +5,7 @@ import TopBanner from './components/TopBanner'
 function App() {
 
   return (
-    <div className='container bg-green-400'>
+    <div className='m-0'>
       <TopBanner></TopBanner>
       <Services></Services>
 

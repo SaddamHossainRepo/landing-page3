@@ -4,7 +4,7 @@ import pic3 from '../../public/static-files/top-banner/pic-3.png'
 const Services = () => {
     return (
         <div className='p-0  bg-black border-gray-600 '>
-            <div className="mt-96">
+            <div className="mt-0">
                 <div className="flex justify-center items-center ">
 
                     <div className='w-1/2 mt-10'>
