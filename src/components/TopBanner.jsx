@@ -24,7 +24,7 @@ const TopBanner = () => {
                 <div className="navbar-center">
                     <div className='flex gap-10'>
                         <Link to='/'>about us</Link>
-                        <Link to='/'>services</Link>
+                        <Link to='/services'>services</Link>
                         <Link to='/'>our work</Link>
                         <Link to='/'>education</Link>
                     </div>
