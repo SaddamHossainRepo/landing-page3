@@ -1,4 +1,5 @@
 import './App.css'
+import HireUs from './components/HireUs'
 import OurClient from './components/OurClient'
 import OurTeam from './components/OurTeam'
 import OurWork from './components/OurWork'
@@ -16,6 +17,7 @@ function App() {
       <OurWork></OurWork>
       <OurClient></OurClient>
       <OurTeam></OurTeam>
+      <HireUs></HireUs>
     </div>
   )
 }

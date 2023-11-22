@@ -42,8 +42,8 @@ const TopBanner = () => {
                     <h1 className=' text-5xl mb-2 innovative-agency'>innovative Cyber Agency</h1>
                     <h1 className='font-serif font-bold mb-14 text-5xl bg-gradient-to-r from-green-400 via-cyan-500 to-green-600 text-transparent bg-clip-text'>Artificial Intelligence</h1>
                     <div className='rota-font'>
-                        <p className='text-sm '> We're the best digital marketing agency from West Bengal, curating experiences that users </p>
-                        <p className='text-sm'>fall in love with.</p>
+                        <p className='text-lg '> We're the best digital marketing agency from West Bengal, curating experiences that users </p>
+                        <p className='text-lg'>fall in love with.</p>
                     </div>
                 </div>
 
