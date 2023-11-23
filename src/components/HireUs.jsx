@@ -4,6 +4,8 @@ import fb from '../../public/static-files/top-hero/icons/fb.svg'
 import insta from '../../public/static-files/top-hero/icons/insta.svg'
 import be from '../../public/static-files/top-hero/icons/be.svg'
 import web from '../../public/static-files/top-hero/icons/web.svg'
+import { motion } from "framer-motion"
+
 
 const HireUs = () => {
     return (
@@ -43,10 +45,16 @@ const HireUs = () => {
                     <input className='bg-black w-1/2 mt-3' type="text" placeholder='EMAIL' />
                     <input className='bg-black w-full' type="text" placeholder='PROJECT DETAILS (OPTIONAL)' />
                 </div>
-                <button className="mt-10 pl-14 pr-14 pt-3 pb-3 rounded-full border-2  text-start text-xs 
+                <motion.button
+                whileHover={{
+                    scale: 1.1,
+                    textShadow: "0px 0px 8px rgb(255, 255, 255)",
+                    boxShadow: "0px 0px 8px rgb(255, 255, 255)"
+                }}
+                className="mt-10 pl-14 pr-14 pt-3 pb-3 rounded-full border-2  text-start text-xs 
                         border-gradient-to-r from-green-400 via-cyan-500 to-green-600 ">
                     SUBMIT
-                </button>
+                </motion.button>
             </div>
             <div className='pl-36'>
                 <div className='rota-font'>
